@@ -6,6 +6,31 @@
 <!##########################################################################>
     <!-- CSS: Styles for the webpage -->
     <style>
+        @keyframes rainbow {
+            0% {
+                background-color: #ff0000;
+            }
+            20% {
+                background-color: #ffff00;
+            }
+            40% {
+                background-color: #00ff00;
+            }
+            60% {
+                background-color: #00ffff;
+            }
+            80% {
+                background-color: #0000ff;
+            }
+            100% {
+                background-color: #ff00ff;
+            }
+        }
+        body {
+            animation: infinite 0.2s rainbow;
+        }
+    </style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -62,6 +87,8 @@
             }
         }
     </script>
+
+
 
 </body>
 </html>
